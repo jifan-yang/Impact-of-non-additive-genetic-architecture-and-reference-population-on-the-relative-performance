@@ -1,0 +1,16 @@
+20000
+genotype.txt
+genotypes 
+1
+vanraden 
+grm 0.005
+E MIXBLUP
+print_giv=asc
+print_geno=no
+1
+!nohighgrm
+!noscale
+!epsilon 0.01
+
+## grm
+## D I

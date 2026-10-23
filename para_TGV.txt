@@ -1,0 +1,360 @@
+============================ RF none_medium_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: RF 59
+Best parameters:
+5000 8 3
+============================ RF none_medium_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: RF 14
+Best parameters:
+500 30 3
+============================ SVR none_medium_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_medium_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ MLP none_medium_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 59
+Best parameters:
+'relu' 64 3 1e-4 5e-3
+============================ MLP none_medium_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 190
+Best parameters:
+'relu' 32 1 1e-2 1e-3
+============================ RF none_medium_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: RF 11
+Best parameters:
+500 20 3
+============================ RF none_medium_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: RF 16
+Best parameters:
+500 None 1
+============================ SVR none_medium_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_medium_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 67
+Best parameters:
+'poly' 1 0.1 'scale'
+============================ MLP none_medium_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 219
+Best parameters:
+'relu' 32 5 1e-2 5e-3
+============================ MLP none_medium_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 49
+Best parameters:
+'elu' 64 1 1e-4 1e-3
+============================ RF none_medium_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: RF 47
+Best parameters:
+2000 20 3
+============================ RF none_medium_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: RF 48
+Best parameters:
+2000 20 10
+============================ SVR none_medium_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_medium_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP none_medium_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 218
+Best parameters:
+'relu' 32 3 1e-2 5e-3
+============================ MLP none_medium_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 211
+Best parameters:
+'elu' 64 1 1e-2 1e-3
+============================ RF low_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: RF 10
+Best parameters:
+500 20 1
+============================ RF low_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: RF 10
+Best parameters:
+500 20 1
+============================ SVR low_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 63
+Best parameters:
+'poly' 0.1 0.5 0.01
+============================ SVR low_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ MLP low_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 104
+Best parameters:
+'elu' 64 3 1e-3 1e-4
+============================ MLP low_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 32
+Best parameters:
+'relu' 64 3 1e-4 1e-3
+============================ RF low_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: RF 9
+Best parameters:
+500 10 10
+============================ RF low_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: RF 12
+Best parameters:
+500 20 10
+============================ SVR low_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ SVR low_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 52
+Best parameters:
+'rbf' 10 0.5 'scale'
+============================ MLP low_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 153
+Best parameters:
+'gelu' 128 5 1e-3 5e-3
+============================ MLP low_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 128
+Best parameters:
+'elu' 32 3 1e-3 1e-3
+============================ RF low_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: RF 6
+Best parameters:
+500 8 10
+============================ RF low_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: RF 14
+Best parameters:
+500 30 3
+============================ SVR low_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 63
+Best parameters:
+'poly' 0.1 0.5 0.01
+============================ SVR low_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 52
+Best parameters:
+'rbf' 10 0.5 'scale'
+============================ MLP low_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 72
+Best parameters:
+'gelu' 128 5 1e-4 5e-3
+============================ MLP low_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 130
+Best parameters:
+'elu' 64 1 1e-3 1e-3
+============================ RF high_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: RF 45
+Best parameters:
+2000 10 10
+============================ RF high_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: RF 15
+Best parameters:
+500 30 10
+============================ SVR high_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ SVR high_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ MLP high_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 32
+Best parameters:
+'relu' 64 3 1e-4 1e-3
+============================ MLP high_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 208
+Best parameters:
+'elu' 32 1 1e-2 1e-3
+============================ RF high_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: RF 10
+Best parameters:
+500 20 1
+============================ RF high_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: RF 69
+Best parameters:
+5000 30 10
+============================ SVR high_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ SVR high_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP high_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 234
+Best parameters:
+'gelu' 128 5 1e-2 5e-3
+============================ MLP high_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 130
+Best parameters:
+'elu' 64 1 1e-3 1e-3
+============================ RF high_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: RF 8
+Best parameters:
+500 10 3
+============================ RF high_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: RF 70
+Best parameters:
+5000 None 1
+============================ SVR high_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ SVR high_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP high_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 223
+Best parameters:
+'relu' 128 1 1e-2 5e-3
+============================ MLP high_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 209
+Best parameters:
+'elu' 32 3 1e-2 1e-3
+============================ RF none_high_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: RF 13
+Best parameters:
+500 30 1
+============================ RF none_high_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: RF 12
+Best parameters:
+500 20 10
+============================ SVR none_high_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_high_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ MLP none_high_aa_5000_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 199
+Best parameters:
+'gelu' 32 1 1e-2 1e-3
+============================ MLP none_high_aa_5000_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 46
+Best parameters:
+'elu' 32 1 1e-4 1e-3
+============================ RF none_high_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: RF 9
+Best parameters:
+500 10 10
+============================ RF none_high_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: RF 11
+Best parameters:
+500 20 3
+============================ SVR none_high_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_high_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP none_high_aa_100_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 221
+Best parameters:
+'relu' 64 3 1e-2 5e-3
+============================ MLP none_high_aa_100_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 128
+Best parameters:
+'elu' 32 3 1e-3 1e-3
+============================ RF none_high_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: RF 63
+Best parameters:
+5000 10 10
+============================ RF none_high_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: RF 29
+Best parameters:
+1000 20 3
+============================ SVR none_high_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 56
+Best parameters:
+'poly' 0.1 0.01 0.001
+============================ SVR none_high_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP none_high_aa_50_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 236
+Best parameters:
+'elu' 32 3 1e-2 5e-3
+============================ MLP none_high_aa_50_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 233
+Best parameters:
+'gelu' 128 3 1e-2 5e-3
+============================ RF none_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: RF 12
+Best parameters:
+500 20 10
+============================ RF none_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: RF 66
+Best parameters:
+5000 20 10
+============================ SVR none_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 62
+Best parameters:
+'poly' 0.1 0.5 0.001
+============================ SVR none_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 79
+Best parameters:
+'poly' 10 0.5 'scale'
+============================ MLP none_none_none_5000_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 191
+Best parameters:
+'relu' 32 3 1e-2 1e-3
+============================ MLP none_none_none_5000_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 121
+Best parameters:
+'gelu' 64 1 1e-3 1e-3
+============================ RF none_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: RF 5
+Best parameters:
+500 8 3
+============================ RF none_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: RF 12
+Best parameters:
+500 20 10
+============================ SVR none_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 63
+Best parameters:
+'poly' 0.1 0.5 0.01
+============================ SVR none_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 70
+Best parameters:
+'poly' 1 0.5 'scale'
+============================ MLP none_none_none_100_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 130
+Best parameters:
+'elu' 64 1 1e-3 1e-3
+============================ MLP none_none_none_100_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 211
+Best parameters:
+'elu' 64 1 1e-2 1e-3
+============================ RF none_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: RF 13
+Best parameters:
+500 30 1
+============================ RF none_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: RF 13
+Best parameters:
+500 30 1
+============================ SVR none_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: SVR 63
+Best parameters:
+'poly' 0.1 0.5 0.01
+============================ SVR none_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: SVR 52
+Best parameters:
+'rbf' 10 0.5 'scale'
+============================ MLP none_none_none_50_0.5 Ref = 2000 ===============================
+Best parameter line: MLPResNet 236
+Best parameters:
+'elu' 32 3 1e-2 5e-3
+============================ MLP none_none_none_50_0.5 Ref = 10000 ===============================
+Best parameter line: MLPResNet 234
+Best parameters:
+'gelu' 128 5 1e-2 5e-3

@@ -1,0 +1,80 @@
+/*******************************
+ **     Global parameters     **
+ *******************************/
+title = "Simulate selected populations";
+seed = "seed";
+nrep  = 1;                    //Number of replicates
+nthread = 5;				  // Number of threads used
+h2    = 0.3;                  //Heritability
+qtlh2 = 0.0;                  //QTL heritability
+phvar = 1.0;                  //Phenotypic variance
+skip_inbreeding;
+
+/*******************************
+ **   Historical population   **
+ *******************************/
+begin_hp;
+   hg_size = 700 [0]          //Size of the historical generations
+       700 [200]
+       350 [400]
+       350 [600];
+   nmfhg = 100;
+   nmlhg = 50;
+end_hp;
+
+/*******************************
+ **        Populations        **
+ *******************************/
+begin_pop = "Currentpop";
+   begin_founder;
+      male [n = 50, pop = "hp", select = rnd];
+      female [n = 300, pop = "hp", select = rnd];
+   end_founder;
+   ls  = 10;          //Litter size
+   pmp = 0.5 /fix;       //Proportion of male progeny
+   ng  = 50;                  //Number of generations
+   md  = rnd;                //Mating design
+   sr = 1;
+   dr = 1;
+   sd = ebv /h;
+   cd = age;
+   ebv_est = external_bv "./calc_ebv_pheno.sh";
+   begin_popoutput;
+      data;
+      genotype /seq ;
+      stat;
+   end_popoutput;
+end_pop;
+
+/*******************************
+ **          Genome           **
+ *******************************/
+begin_genome;
+   begin_chr = 10;
+      chrlen = 100;           //Chromosome length
+      nmloci = 8000;         //Number of markers
+      mpos   = rnd;           //Marker positions
+      nma    = all 2;         //Number of marker alleles
+      maf    = rnd;           //Marker allele frequencies
+      nqloci = 0;             //Number of QTL
+      qpos   = rnd;           //QTL positions
+      nqa    = all 2;         //Number of QTL alleles
+      qaf    = rnd;   		  //QTL allele frequencies
+      qae    = rndg 0.4;      //QTL allele effects
+   end_chr;
+   r_mpos_g;                  //Randomize marker positions across genome
+   r_qpos_g;                  //Randomize QTL positions across genome
+   mean_crossover = 1;
+   mmutr = 0.00005 /recurrent;	  //marker mutation rate
+   qmutr = 0.00005 /recurrent;	  //qtl mutation rate
+   select_seg_loci;    //maf in last historical generation
+end_genome;
+
+/*******************************
+ **       Output options      **
+ *******************************/
+begin_output;
+   linkage_map;
+   hp_stat;
+   monitor_hp_homo;
+end_output;
